@@ -2,8 +2,7 @@
     "name": "cartso",
     "version": "0.0.1",
     "description": "CouchApp cart",
-    "attachments": ["js"],
-    "modules_attachment": false,
+    "attachments": ["js", "test.html"],
     "modules": ["lib"],
     "load": "lib/app",
     "dependencies": {
@@ -11,6 +10,6 @@
 	"modules": null,
 	"underscore": null,
 	"underscore-string": null,
-	"cookies": null
+	"session": null
     }
 }
